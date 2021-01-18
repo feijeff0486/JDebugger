@@ -1,0 +1,20 @@
+ext {
+    bintrayName = 'crash-catcher'
+    artifact = bintrayName
+    libraryName = 'JDebugger crash catcher library'
+    libraryDescription = 'Catch exception crash.'
+    libraryVersionCode = jdebugger_crash_catcher_version_code
+    libraryVersionName = jdebugger_crash_catcher_version_name
+}
+apply from: rootProject.file('gradle/build_library.gradle')
+
+android {
+    defaultConfig {
+        versionCode libraryVersionCode.asType(Integer.class)
+        versionName libraryVersionName
+    }
+}
+
+dependencies {
+
+}

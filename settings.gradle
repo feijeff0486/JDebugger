@@ -1,0 +1,3 @@
+rootProject.name='JDebugger'
+include ':app'
+include ':crash-catcher'

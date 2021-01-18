@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeff.jdebugger.crashcatcher" >
+    <application>
+        <activity
+            android:name=".DefaultErrorActivity"
+            android:process=":error" />
+        <activity
+            android:name=".DefaultErrorDescActivity"
+            android:process=":error" />
+        <provider
+            android:name=".CatcherInitProvider"
+            android:authorities="${applicationId}.catcher-init-provider"
+            android:exported="false"
+            android:initOrder="101" />
+    </application>
+</manifest>
