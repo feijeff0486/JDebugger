@@ -1,4 +1,4 @@
-package com.jeff.jdebugger.sample;
+package com.jeff.debugger.sample;
 
 import org.junit.Test;
 

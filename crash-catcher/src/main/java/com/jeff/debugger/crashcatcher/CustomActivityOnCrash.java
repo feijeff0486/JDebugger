@@ -1,4 +1,4 @@
-package com.jeff.jdebugger.crashcatcher;
+package com.jeff.debugger.crashcatcher;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

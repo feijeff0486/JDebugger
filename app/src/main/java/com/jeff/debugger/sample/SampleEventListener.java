@@ -1,8 +1,8 @@
-package com.jeff.jdebugger.sample;
+package com.jeff.debugger.sample;
 
 import android.util.Log;
 
-import com.jeff.jdebugger.crashcatcher.CustomActivityOnCrash;
+import com.jeff.debugger.crashcatcher.CustomActivityOnCrash;
 
 /**
  * @author Jeff

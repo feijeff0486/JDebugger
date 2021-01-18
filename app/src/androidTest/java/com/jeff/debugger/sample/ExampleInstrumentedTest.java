@@ -1,4 +1,4 @@
-package com.jeff.jdebugger.crashcatcher;
+package com.jeff.debugger.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.jeff.jdebugger.crashcatcher.test", appContext.getPackageName());
+        assertEquals("com.jeff.jdebugger.sample", appContext.getPackageName());
     }
 }

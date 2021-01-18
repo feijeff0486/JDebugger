@@ -1,4 +1,4 @@
-package com.jeff.jdebugger.crashcatcher;
+package com.jeff.debugger.crashcatcher;
 
 import android.app.Activity;
 import android.support.annotation.DrawableRes;

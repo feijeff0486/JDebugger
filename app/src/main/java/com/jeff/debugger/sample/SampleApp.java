@@ -1,9 +1,9 @@
-package com.jeff.jdebugger.sample;
+package com.jeff.debugger.sample;
 
 import android.app.Application;
 
-import com.jeff.jdebugger.crashcatcher.CatcherConfig;
-import com.jeff.jdebugger.crashcatcher.DefaultErrorDescActivity;
+import com.jeff.debugger.crashcatcher.CatcherConfig;
+import com.jeff.debugger.crashcatcher.DefaultErrorDescActivity;
 
 /**
  * @author Jeff
